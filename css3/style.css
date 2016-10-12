@@ -1,0 +1,140 @@
+@import 'https://fonts.googleapis.com/css?family=Osward|Roboto|Catamaran';
+
+* { margin:0; padding:0; } 
+
+html, body, #main { height: 100%; }
+body > #main {height: auto; min-height: 100%;}
+
+body {
+    background: #eee repeat-x ; /*url(img/57.jpg) */
+    background-size: auto;
+}
+
+#header{
+    background-color: rgb(98, 95, 95);
+    height: 50px;
+    margin: 0px;
+}
+
+#head2{
+    background-color: rgb(106, 102, 102);
+    float: center;
+    width: 960px;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.h1{
+    color: #ffffff;
+    text-align: center;
+}
+
+#main{
+    width: 960px; 
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 150px;
+}
+
+.l_top{
+    height: 200px;
+    background-color: darkkhaki;
+}
+
+.left_column{
+    background: #ddd;
+    width: 600px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+
+
+.right_column{
+    background: #eee;	
+    width: 360px;
+    float: right;
+    height: 200px;
+}
+
+#lower_column{
+    background: #aaa;
+    height: 60px;
+    clear: both;
+}
+
+a{ 
+    color: #f40404;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+#page{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.light_blue{
+    font-weight: lighter;
+    color: blue;
+}
+
+.dark_red{
+    font-weight: bolder;
+    color: red;
+}
+
+.p_left{
+    margin: 10px;
+    text-align: justify;
+    text-decoration: none;
+    text-indent: 20px;
+    line-height: 30PX;
+    font-family: sans-serif;
+}
+
+.foot_inf{
+    background-color: rgb(106, 102, 102);
+    float: center;
+    width: 960px;
+    margin: 0 auto;
+    height: 120px;
+}
+
+#footer{
+    background-color: rgb(75, 74, 74);
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 120px;
+    clear:both;} 
+    /* CLEAR FIX*/
+    .clearfix:after {content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;}
+    .clearfix {display: inline-block;}
+    /* Hides from IE-mac \*/
+    * html .clearfix { height: 1%;}
+    .clearfix {display: block;}
+    /* End hide from IE-mac */
+}
+
+
+
+/*
+footer
+govno
+clear: both;
+width: 100%;
+line-height: 20px;
+padding-top: 20px;
+background: #2c3e50;
+
+godno
+height: 50px; 
+background: #030327;
+position: absolute;
+bottom: 0;
+width: 100%;
+*/
