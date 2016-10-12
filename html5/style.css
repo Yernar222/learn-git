@@ -1,0 +1,26 @@
+body {background: white}
+#main{
+	width: 960px; 
+	margin: 0 auto;"
+}
+#header{
+	background: #ccc;
+	height: 200px;
+}
+#right_column{
+	background: #eee;	
+	width: 360px;
+	float: right;
+	height: 200px;
+}
+#left_column{
+	background: #ddd;
+	width: 600px;
+	float: left;
+	height: 600px;
+}
+#lower_column{
+	background: #aaa;
+	height: 60px;
+	clear: both;
+}
