@@ -1,0 +1,15 @@
+.asd{
+    background-color: antiquewhite;
+}
+
+.styles li{
+    list-style: circle;
+    list-style-position: inside;
+    border: 1px solid #fff;
+    padding: 5px;
+    font-family: " Cuprum" , sans-serif;
+}
+
+.styles li:hover{
+    background: #78d8fc;
+}

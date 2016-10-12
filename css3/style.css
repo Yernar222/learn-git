@@ -42,6 +42,7 @@ body {
     background-color: darkkhaki;
 }
 
+
 .left_column{
     background: #ddd;
     width: 600px;
@@ -52,12 +53,17 @@ body {
 }
 
 
+#styles{
+    color: #fff;
+    font-family: "Cuprum" ,sans-serif;
+    margin: 20px;
+}
 
 .right_column{
     background: #ddd;	
     width: 360px;
     float: right;
-    height: 200px;
+    height: 100%;
 }
 
 a{ 
@@ -81,6 +87,7 @@ a{
     color: red;
 }
 
+
 .p_left{
     margin: 10px;
     text-align: justify;
@@ -97,7 +104,7 @@ a{
     margin: 0 auto;
     height: 120px;
 }
-
+/* write code before here*/
 #footer{
     background-color: rgb(75, 74, 74);
     position: relative;
@@ -117,21 +124,3 @@ a{
     /* End hide from IE-mac */
 }
 
-
-
-/*
-footer
-govno
-clear: both;
-width: 100%;
-line-height: 20px;
-padding-top: 20px;
-background: #2c3e50;
-
-godno
-height: 50px; 
-background: #030327;
-position: absolute;
-bottom: 0;
-width: 100%;
-*/
