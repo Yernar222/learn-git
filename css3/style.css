@@ -30,6 +30,7 @@ body {
 }
 
 #main{
+    background-color: #ddd;
     width: 960px; 
     margin: 0 auto;
     height: 100%;
@@ -44,23 +45,19 @@ body {
 .left_column{
     background: #ddd;
     width: 600px;
+    min-height: 100%;
     float: left;
     margin-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 
 
 .right_column{
-    background: #eee;	
+    background: #ddd;	
     width: 360px;
     float: right;
     height: 200px;
-}
-
-#lower_column{
-    background: #aaa;
-    height: 60px;
-    clear: both;
 }
 
 a{ 
@@ -94,7 +91,7 @@ a{
 }
 
 .foot_inf{
-    background-color: rgb(106, 102, 102);
+    background-color: rgb(38, 38, 38);
     float: center;
     width: 960px;
     margin: 0 auto;
@@ -104,13 +101,13 @@ a{
 #footer{
     background-color: rgb(75, 74, 74);
     position: relative;
-    margin-top: -150px; /* negative value of footer height */
+    margin-bottom: 0px; /* negative value of footer height */
     height: 120px;
     clear:both;} 
     /* CLEAR FIX*/
     .clearfix:after {content: ".";
     display: block;
-    height: 0;
+
     clear: both;
     visibility: hidden;}
     .clearfix {display: inline-block;}
