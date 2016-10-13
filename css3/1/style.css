@@ -1,5 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Osward|Roboto|Catamaran';
 
+
 * { margin:0; padding:0; } 
 
 html, body, #main { height: 100%; }
@@ -23,6 +24,7 @@ body {
     margin: 0 auto;
     height: 50px;
 }
+
 
 .h1{
     color: #ffffff;

@@ -70,6 +70,7 @@ table {
 #navigation{
     background-color: darkslategrey;
     height: 65px;
+    
 }
 #navigation ul li{
     float: left;
