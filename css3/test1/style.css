@@ -46,6 +46,12 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/* 
+---------------------------------------------
+---------------------------------------------
+---------------------------------------------
+*/
+
 
 #page{
     background-color: bisque;
@@ -54,15 +60,32 @@ table {
     height: 100%;
     padding-bottom: 150px;
     
+    
 }
+
+
+/* -------HEADER-------*/
 #navigation{
     height: 65px;
     background-color: #2C3E50;
     border-radius: 7px 7px 7px 7px;
+    position: relative; 
 }
+#navigation ul{
+    float: right;
+}
+
 #navigation>ul>li{
-    float: left;
+    float: right;
     position: relative;
+    margin-top: 20px;
+}
+#noli{
+    margin: 0 25px 0 0;
+}
+
+.xa{
+    border-radius: 2px 2px 0px 0px;
 }
 
 #navigation ul li a{
@@ -70,19 +93,27 @@ table {
     text-decoration: none;
     display: block;
     font-family: "Cuprum" , sans-serif;
-    height: 65;
+    height: 45;
     padding: 0 15px;
-    line-height: 65px;
-    border-radius: 7px 7px 7px 7px;
+    line-height: 45px;
+    
+}
+
+.k{
+    border-radius: 0px 0px 7px 7px;
 }
 
 
 #navigation ul li a:hover{
     text-decoration: underline;
-    background-color: rgba(118, 222, 170, 0.88);
-    
+    background-color: rgba(118, 206, 222, 0.88);  
 }
 
+/*
+background-color: rgba(0, 179, 223, 0.83);   
+background-color: rgba(118, 206, 222, 0.88);   
+background-color: rgba(118, 222, 170, 0.88);   
+*/
 #navigation .down{
     position: absolute;
     width: 150px;
@@ -90,17 +121,28 @@ table {
     display: none;
     border-radius: 0px 0px 7px 7px;
 }
+
 #navigation li:hover .down{
     display: block;
 }
 
 
 #navigation .down li{
-    height: 45px;
+    height: 40px;
     width: 100%;
 }
 
 #navigation .down a{
-    line-height: 45px;
-    height: 45px;
+    line-height: 40px;
+    height: 40px;
 }
+
+#navigation .logo a{
+    display: block;
+    position: absolute;  
+    float: left;
+}
+.logotip{
+    height: 45px;
+    padding: 5px;
+    margin: 5px;
