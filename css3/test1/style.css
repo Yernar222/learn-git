@@ -271,3 +271,30 @@ background-color: rgba(118, 222, 170, 0.88);
     background: #fff;
 }
 */
+
+.first_letter::first-letter{
+    font: "Times New Roman", Times, serif;
+    font-size: 200%;
+    color: red;
+
+}
+
+.pseudo_element::before ,
+.pseudo_element::after{
+    content: " ";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.first_line::first-line{
+    font-size: 24px;
+    color: red;
+}
+
+.first_line::selection{
+    background: blue;
+    color: black;
+}
