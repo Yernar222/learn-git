@@ -112,3 +112,20 @@ table {
     line-height: 45px;
     height: 45px;
 }
+
+.logo{
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+#header{
+    height: 200px;
+    position: relative;
+}
+
+.search{
+    position:absolute;
+    top: 50px;
+    right: 0;
+}

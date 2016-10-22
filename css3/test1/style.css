@@ -4,7 +4,7 @@ License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+ p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -51,16 +51,24 @@ table {
 ---------------------------------------------
 ---------------------------------------------
 */
-
-
+/*
+body{
+    background-image: url(img/bc8.jpg);
+}
+/
+/*  8
+    12
+*/
 #page{
-    background-color: bisque;
+    background-color: rgba(253, 229, 200, 0.88);
     width: 960px; 
     margin: 0 auto;
     height: 100%;
     padding-bottom: 150px;
-    
-    
+    /*     background-color: rgba(253, 229, 200, 0.88); 
+    background-color: bisque;
+    */
+
 }
 
 
@@ -68,24 +76,17 @@ table {
 #navigation{
     height: 65px;
     background-color: #2C3E50;
-    border-radius: 7px 7px 7px 7px;
+    border-radius: 7px;
     position: relative; 
 }
+
 #navigation ul{
     float: right;
 }
 
 #navigation>ul>li{
     float: right;
-    position: relative;
     margin-top: 20px;
-}
-#noli{
-    margin: 0 25px 0 0;
-}
-
-.xa{
-    border-radius: 2px 2px 0px 0px;
 }
 
 #navigation ul li a{
@@ -99,11 +100,6 @@ table {
     
 }
 
-.k{
-    border-radius: 0px 0px 7px 7px;
-}
-
-
 #navigation ul li a:hover{
     text-decoration: underline;
     background-color: rgba(118, 206, 222, 0.88);  
@@ -115,34 +111,163 @@ background-color: rgba(118, 206, 222, 0.88);
 background-color: rgba(118, 222, 170, 0.88);   
 */
 #navigation .down{
-    position: absolute;
-    width: 150px;
-    background: #2C3E50;
+    /*
     display: none;
-    border-radius: 0px 0px 7px 7px;
-}
-
-#navigation li:hover .down{
-    display: block;
-}
-
-
-#navigation .down li{
-    height: 40px;
-    width: 100%;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    */
+    display: none;
+    position: absolute;
+    background: #2C3E50;
+    min-width: 130px;
+    max-width: 250px;
+    margin: 0 auto;
+    border-radius: 0px 0px 5px 5px;
+    
 }
 
 #navigation .down a{
-    line-height: 40px;
-    height: 40px;
+    line-height: normal;
+    padding: 10px;
+    font-size: 14px;
+    display: block;
+    }
+
+#navigation li:hover .down{
+    display: block;
+    
 }
+
+
+#navigation>ul>li:first-child {
+    margin-right: 25px;
+}
+
+.menu{
+    border-radius: 2px 2px 0px 0px;
+}
+
+.down>li:last-child a{
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+/* ----- Logotip ----- */
 
 #navigation .logo a{
     display: block;
     position: absolute;  
     float: left;
 }
+
+
 .logotip{
     height: 45px;
     padding: 5px;
     margin: 5px;
+}
+
+/* ------ Content ------ */
+#content{
+    padding-top: 20px;
+}
+
+#content::before, 
+#content::after {
+    content:"";
+    display:table;
+}
+#content::after {
+    clear:both;
+}
+#content {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+#sidebar{
+    width: 200px;
+    float: left;
+    position: absolute;
+}
+
+#sidebar ul{
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+#sidebar a{
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Cuprum" , sans-serif;
+    color: #2a0bd0;
+    height: 45;
+    padding: 0 5px 5px;
+    line-height: normal;
+    display: block;
+}
+
+#sidebar li{
+    margin: 5px;
+    border: 1px solid #bab8b8;
+}
+
+#sidebar a:hover{
+    text-decoration: underline;
+}
+
+#sidebar>ul>li>a:focus{
+    color: #9300ff;
+}
+
+.decor li{
+    list-style: disc;
+    list-style-position: inside;
+    margin-left: 35px;
+}
+
+#article{
+    width: 740px;
+    padding-left: 20px;
+    padding-right: 10px;
+    float: right;
+}
+
+#article ul{
+    margin-left: 15px;
+}
+
+#article p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+#article h1{
+    text-align: center;
+}
+
+.sdu_pic{
+    height: 300px;
+}
+/* ------ Для Рекламы ------
+#fixed{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.51);
+    top: 0;
+    left: 0;
+}
+
+.globy_reklam {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+    background: #fff;
+}
+*/
