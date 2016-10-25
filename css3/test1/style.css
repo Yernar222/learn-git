@@ -221,6 +221,35 @@ background-color: rgba(118, 222, 170, 0.88);
     color: #9300ff;
 }
 
+/* ------- Selector atributov ------*/
+#sidebar a[target="_blank"]{
+    color: black;
+}
+
+#sidebar a[title~="Курс"]{
+    color: red; /*do probela*/
+}
+
+#sidebar a[class |="pre"]{
+    color: green; /*do defisa*/
+}
+
+#sidebar a[class^="socials"]{
+    color: gray; /*begin s social*/
+}
+
+#sidebar a[class$="icon"]{
+    color: aqua; /*end s icon*/
+} 
+
+#sidebar a[class *="jj"]{
+    color: darkcyan;
+}
+
+img[src $="jpg"]{
+    border: 1px solid white;
+}
+
 .decor li{
     list-style: disc;
     list-style-position: inside;
@@ -297,4 +326,47 @@ background-color: rgba(118, 222, 170, 0.88);
 .first_line::selection{
     background: blue;
     color: black;
+}
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image:url(img/asd.png)
+}
+
+.icon.icon-car{
+    background-position: 0 0;
+}
+
+
+.icon.icon-car:hover{
+    background-position: 0 -40px;
+}
+
+
+.icon.icon-check{
+    background-position: -40px 0;
+}
+
+
+.icon.icon-check:hover{
+    background-position: -40px -40px;
+}
+
+.icon.icon-basket{
+    background-position: -80px 0;
+}
+
+
+.icon.icon-basket:hover{
+    background-position: -80px -40px;
+}
+
+.icon.icon-messenger{
+    background-position: -120px 0;
+}
+
+
+.icon.icon-messenger:hover{
+    background-position: -120px -40px;
 }
