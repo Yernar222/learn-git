@@ -114,7 +114,7 @@ a{
     height: 120px;
     clear:both;} 
     /* CLEAR FIX*/
-    .clearfix:after {content: ".";
+    .clearfix::after {content: ".";
     display: block;
 
     clear: both;

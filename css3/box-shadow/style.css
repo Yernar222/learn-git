@@ -1,0 +1,71 @@
+body{
+    background: url(img/extra_clean_paper.png);
+}
+.button{
+    display: inline-block;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    background: url(http://subtlepatterns.com/patterns/extra_clean_paper.png);
+    cursor: pointer; /* при наведении курсора */
+
+    border-radius: 50%;
+    -moz-border-radius: 50%; /* для браузеров */
+    -webkit-border-radius: 50%; /* для браузеров */
+
+    box-shadow: 0 3px 20px rgba(0,0,0,.25), 
+        inset   0 2px 0  rgba(255,255,255,.6),
+        0 2px 0 rgba(0,0,0,.1) , 
+        inset   0 0 20px rgba(0,0,0,.1);
+    -webkit-box-shadow:  box-shadow: 0 3px 20px rgba(0,0,0,.25), 
+        inset   0 2px 0  rgba(255,255,255,.6),
+        0 2px 0 rgba(0,0,0,.1) , 
+        inset   0 0 20px rgba(0,0,0,.1);;
+    -moz-box-shadow:  box-shadow: 0 3px 20px rgba(0,0,0,.25), 
+        inset   0 2px 0  rgba(255,255,255,.6),
+        0 2px 0 rgba(0,0,0,.1) , 
+        inset   0 0 20px rgba(0,0,0,.1);;
+    /* gorizontal vertical razmitiya rastejeniya(razmer teny) */
+    
+}
+
+.button:hover {
+    box-shadow:inset 0 0 20px rgba(0,0,0,.2), 
+                     0 2px 0  rgba(255,255,255,.4),
+                inset   0 2px 0 rgba(0,0,0,.1);
+   
+    /* gorizontal vertical razmitiya rastejeniya(razmer teny) */
+}
+
+.button::after{
+    content: "";
+    width: 100px;
+    height: 100px;
+    display: block;
+    opacity: .7;
+}
+
+.button:hover::after{
+    background-position: center 52%;
+}
+
+.btn-photo::after{
+    background: url(img/MD-camera-photo_0.png) center no-repeat;
+}
+
+.btn-settings::after{
+    background: url(img/settings.png) center no-repeat;
+}
+
+.btn-tag::after{
+    background: url(img/tag.png) center no-repeat;
+}
+
+.triangle-dow{
+    margin: 20px;
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid black;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+}

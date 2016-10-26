@@ -1,0 +1,19 @@
+body{
+
+}
+
+#page{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#article{
+    float: right;
+}
+
+.logotip{
+   width: auto;
+   margin: 5px;
+    height: 25px;
+}
