@@ -1,0 +1,7 @@
+.row{
+    height: 2000px;
+}
+
+.item p,h3{
+    color: black;
+}
