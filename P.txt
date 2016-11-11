@@ -1,0 +1,2 @@
+After Bootstrap create site:
+- Shop goods

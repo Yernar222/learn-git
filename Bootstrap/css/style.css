@@ -1,7 +1,25 @@
 .row{
-    height: 2000px;
+    height: 500px;
 }
 
 .item p,h3{
     color: black;
+}
+
+a.spoiler:after{
+    content: " [-]";
+}
+
+a.spoiler.collapsed:after{
+    content: " [+]";
+}
+
+a.accordions:after{
+    content: " [+]";
+    float: right;
+}
+
+a.accordions.collapsed:after{
+    content: " [-]";
+    float: right;
 }

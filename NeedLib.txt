@@ -1,0 +1,13 @@
+----Closing Alerts
+<div class="alert alert-success">
+  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+
+* <div class="alert alert-success fade in"> // fade in effect when close
+--------------------------------------------------------------------------------------
+
+----Button Disabled
+<button type="button" class="btn btn-primary active">Active Primary</button>
+<button type="button" class="btn btn-primary disabled">Disabled Primary</button>
+
